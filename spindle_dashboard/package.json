@@ -1,0 +1,14 @@
+{
+  "name": "spindle-dashboard",
+  "version": "1.4.2",
+  "description": "SPINDLE field-unit dashboard API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.0",
+    "express": "^5.2.1"
+  }
+}
